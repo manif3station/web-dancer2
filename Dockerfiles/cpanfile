@@ -1,0 +1,5 @@
+requires "Dancer2";
+requires 'Plack';
+requires 'Starman';
+requires 'Template';
+requires 'YAML';
