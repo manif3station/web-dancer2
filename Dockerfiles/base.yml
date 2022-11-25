@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+    web:
+        init: true
+        working_dir: /app/src
+        volumes:
+            - ../src:/app/src

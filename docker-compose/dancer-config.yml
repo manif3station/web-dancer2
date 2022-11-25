@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  web:
+    environment:
+      DANCER_ENVDIR: /app/src/plugins/web-dancer2/src/config
+      DANCER_CONFDIR: /app/src/plugins/web-dancer2/src/config

@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+    web:
+        environment:
+            KEEP_RUN_WEB: starman --max-requests=100 --preload-app --listen=:80 --workers=2 bin/app.psgi
