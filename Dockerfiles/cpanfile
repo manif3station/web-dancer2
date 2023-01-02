@@ -3,3 +3,4 @@ requires 'Plack';
 requires 'Starman';
 requires 'Template';
 requires 'YAML';
+requires 'Dancer2::Logger::Console';
